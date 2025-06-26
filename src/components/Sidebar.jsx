@@ -11,24 +11,33 @@ export default function Sidebar() {
         {
             text: 'A',
             icon: null,
-            subs: null
+            subs: []
         },
         {
             text: 'B',
             icon: null,
             subs: [
                 {
-                    {
-                        text: 'B1',
-                        icon: null,
-                        subs: null
-                    },
-                    {
-                        text: 'B2',
-                        icon: null,
-                        subs: null
-                    },
-                }
+                    text: 'B1',
+                    icon: null,
+                    subs: [
+                        {
+                            text: 'B11',
+                            icon: null,
+                            subs: []
+                        },
+                        {
+                            text: 'B12',
+                            icon: null,
+                            subs: []
+                        },
+                    ]
+                },
+                {
+                    text: 'B2',
+                    icon: null,
+                    subs: []
+                },
             ]
         },
     ])
@@ -59,4 +68,8 @@ export default function Sidebar() {
             </div>
         </div>
     )
+}
+
+function SidebarItem(text, icon, subs) {
+
 }
