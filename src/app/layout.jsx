@@ -1,5 +1,4 @@
 import { Open_Sans } from "next/font/google"
-import Link from "next/link";
 import "./globals.css";
 import Sidebar from "@/components/Sidebar";
 
