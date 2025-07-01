@@ -10,7 +10,7 @@ export default function Sidebar() {
             text: 'Overview',
             href: '/',
             icon: null,
-            subs: []
+            subs: [],
         },
         {
             text: 'PPI',
@@ -18,18 +18,30 @@ export default function Sidebar() {
             icon: null,
             subs: [
                 {
-                    text: 'B1',
+                    text: 'GLUT4 Translocation',
                     href: null,
                     icon: null,
                     subs: [
                         {
-                            text: 'B11',
+                            text: 'Compartments',
                             href: '/',
                             icon: null,
                             subs: []
                         },
                         {
-                            text: 'B12',
+                            text: 'Proteins',
+                            href: '/',
+                            icon: null,
+                            subs: []
+                        },
+                        {
+                            text: 'Parameters',
+                            href: '/',
+                            icon: null,
+                            subs: []
+                        },
+                        {
+                            text: 'Reactions',
                             href: '/',
                             icon: null,
                             subs: []
@@ -37,10 +49,97 @@ export default function Sidebar() {
                     ]
                 },
                 {
-                    text: 'B2',
-                    href: '/',
+                    text: 'GLUT4 Distranslocation',
+                    href: null,
                     icon: null,
-                    subs: []
+                    subs: [
+                        {
+                            text: 'Compartments',
+                            href: '/',
+                            icon: null,
+                            subs: []
+                        },
+                        {
+                            text: 'Proteins',
+                            href: '/',
+                            icon: null,
+                            subs: []
+                        },
+                        {
+                            text: 'Parameters',
+                            href: '/',
+                            icon: null,
+                            subs: []
+                        },
+                        {
+                            text: 'Reactions',
+                            href: '/',
+                            icon: null,
+                            subs: []
+                        },
+                    ]
+                },
+                {
+                    text: 'Sythesis Protein (AMPK based)',
+                    href: null,
+                    icon: null,
+                    subs: [
+                        {
+                            text: 'Compartments',
+                            href: '/',
+                            icon: null,
+                            subs: []
+                        },
+                        {
+                            text: 'Proteins',
+                            href: '/',
+                            icon: null,
+                            subs: []
+                        },
+                        {
+                            text: 'Parameters',
+                            href: '/',
+                            icon: null,
+                            subs: []
+                        },
+                        {
+                            text: 'Reactions',
+                            href: '/',
+                            icon: null,
+                            subs: []
+                        },
+                    ]
+                },
+                {
+                    text: 'Sythesis Protein (mTOR based)',
+                    href: null,
+                    icon: null,
+                    subs: [
+                        {
+                            text: 'Compartments',
+                            href: '/',
+                            icon: null,
+                            subs: []
+                        },
+                        {
+                            text: 'Proteins',
+                            href: '/',
+                            icon: null,
+                            subs: []
+                        },
+                        {
+                            text: 'Parameters',
+                            href: '/',
+                            icon: null,
+                            subs: []
+                        },
+                        {
+                            text: 'Reactions',
+                            href: '/',
+                            icon: null,
+                            subs: []
+                        },
+                    ]
                 },
             ]
         },
@@ -50,18 +149,30 @@ export default function Sidebar() {
             icon: null,
             subs: [
                 {
-                    text: 'B1',
+                    text: 'T2DM',
                     href: null,
                     icon: null,
                     subs: [
                         {
-                            text: 'B11',
+                            text: 'Compartments',
                             href: '/',
                             icon: null,
                             subs: []
                         },
                         {
-                            text: 'B12',
+                            text: 'Metabolites',
+                            href: '/',
+                            icon: null,
+                            subs: []
+                        },
+                        {
+                            text: 'Genes',
+                            href: '/',
+                            icon: null,
+                            subs: []
+                        },
+                        {
+                            text: 'Reactions',
                             href: '/',
                             icon: null,
                             subs: []
@@ -69,10 +180,60 @@ export default function Sidebar() {
                     ]
                 },
                 {
-                    text: 'B2',
+                    text: 'Liver',
+                    href: null,
+                    icon: null,
+                    subs: [
+                        {
+                            text: 'Compartments',
+                            href: '/',
+                            icon: null,
+                            subs: []
+                        },
+                        {
+                            text: 'Metabolites',
+                            href: '/',
+                            icon: null,
+                            subs: []
+                        },
+                        {
+                            text: 'Genes',
+                            href: '/',
+                            icon: null,
+                            subs: []
+                        },
+                        {
+                            text: 'Reactions',
+                            href: '/',
+                            icon: null,
+                            subs: []
+                        },
+                    ]
+                },
+                {
+                    text: 'Enzymes Sources',
                     href: '/',
                     icon: null,
-                    subs: []
+                    subs: [
+                        {
+                            text: 'T2DM GWAS Catalog',
+                            href: '/',
+                            icon: null,
+                            subs: []
+                        },
+                        {
+                            text: 'Gene Info (GTEX based)',
+                            href: '/',
+                            icon: null,
+                            subs: []
+                        },
+                        {
+                            text: 'Abundance Enzymes (Combination from GWAS & Gene Info)',
+                            href: '/',
+                            icon: null,
+                            subs: []
+                        },
+                    ]
                 },
             ]
         },
@@ -130,7 +291,7 @@ function SidebarItem({text, href, icon, subs}) {
         );   
     } else {
         return (
-            <Link className="flex items-center gap-2" href={href}>
+            <Link className="flex items-center gap-2" href={href ?? '/'}>
                 {icon && <span className="text-lg">{icon}</span>}
                 {text}
             </Link>
