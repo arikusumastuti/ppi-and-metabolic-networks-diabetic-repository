@@ -210,19 +210,19 @@ const sidebarConfig = [
                 subs: [
                     {
                         text: 'T2DM GWAS Catalog',
-                        href: '/',
+                        href: '/metabolic-networks/enzymes-sources/t2dm-gwas-catalog',
                         icon: null,
                         subs: []
                     },
                     {
                         text: 'Gene Info (GTEX based)',
-                        href: '/',
+                        href: '/metabolic-networks/enzymes-sources/gene-info',
                         icon: null,
                         subs: []
                     },
                     {
                         text: 'Abundance Enzymes (Combination from GWAS & Gene Info)',
-                        href: '/',
+                        href: '/metabolic-networks/enzymes-sources/abundance-enzymes',
                         icon: null,
                         subs: []
                     },
