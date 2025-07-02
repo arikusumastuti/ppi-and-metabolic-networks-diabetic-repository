@@ -148,25 +148,25 @@ const sidebarConfig = [
                 subs: [
                     {
                         text: 'Compartments',
-                        href: '/',
+                        href: '/metabolic-networks/t2dm/compartments',
                         icon: null,
                         subs: []
                     },
                     {
                         text: 'Metabolites',
-                        href: '/',
+                        href: '/metabolic-networks/t2dm/metabolites',
                         icon: null,
                         subs: []
                     },
                     {
                         text: 'Genes',
-                        href: '/',
+                        href: '/metabolic-networks/t2dm/genes',
                         icon: null,
                         subs: []
                     },
                     {
                         text: 'Reactions',
-                        href: '/',
+                        href: '/metabolic-networks/t2dm/reactions',
                         icon: null,
                         subs: []
                     },
@@ -179,25 +179,25 @@ const sidebarConfig = [
                 subs: [
                     {
                         text: 'Compartments',
-                        href: '/',
+                        href: '/metabolic-networks/liver/compartments',
                         icon: null,
                         subs: []
                     },
                     {
                         text: 'Metabolites',
-                        href: '/',
+                        href: '/metabolic-networks/liver/metabolites',
                         icon: null,
                         subs: []
                     },
                     {
                         text: 'Genes',
-                        href: '/',
+                        href: '/metabolic-networks/liver/genes',
                         icon: null,
                         subs: []
                     },
                     {
                         text: 'Reactions',
-                        href: '/',
+                        href: '/metabolic-networks/liver/reactions',
                         icon: null,
                         subs: []
                     },
