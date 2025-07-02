@@ -1,6 +1,7 @@
 import { Open_Sans } from "next/font/google"
 import "./globals.css";
 import Sidebar from "@/components/Sidebar";
+import SidebarMobile from "@/components/SidebarMobile";
 
 const OpenSans = Open_Sans({
     variable: "--font-sans",
@@ -19,8 +20,13 @@ export default function RootLayout({ children }) {
         >
             <header></header>
             <main className="flex h-screen overflow-hidden">
-                <Sidebar />
-                <div className="w-5/6 h-screen overflow-auto">
+                <div className="fixed xl:hidden w-screen h-0 overflow-visible">
+                    <SidebarMobile />
+                </div>
+                <div className="hidden xl:block w-1/6 h-screen overflow-auto">
+                    <Sidebar />
+                </div>
+                <div className="w-full xl:w-5/6 h-screen overflow-auto bg-yellow-50">
                     {children}
                 </div>
             </main>
