@@ -1,4 +1,4 @@
-export default function Compartments() {
+export default function GeneInfo() {
     return (
         <div className="flex flex-col items-center justify-center gap-12 px-8 py-16">
             <div className="text-center">

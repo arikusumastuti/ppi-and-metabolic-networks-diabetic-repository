@@ -17,25 +17,25 @@ const sidebarConfig = [
                 subs: [
                     {
                         text: 'Compartments',
-                        href: '/',
+                        href: '/ppi/glut4-translocation/compartments',
                         icon: null,
                         subs: []
                     },
                     {
                         text: 'Proteins',
-                        href: '/',
+                        href: '/ppi/glut4-translocation/proteins',
                         icon: null,
                         subs: []
                     },
                     {
                         text: 'Parameters',
-                        href: '/',
+                        href: '/ppi/glut4-translocation/parameters',
                         icon: null,
                         subs: []
                     },
                     {
                         text: 'Reactions',
-                        href: '/',
+                        href: '/ppi/glut4-translocation/reactions',
                         icon: null,
                         subs: []
                     },
@@ -48,25 +48,25 @@ const sidebarConfig = [
                 subs: [
                     {
                         text: 'Compartments',
-                        href: '/',
+                        href: '/ppi/glut4-distranslocation/compartments',
                         icon: null,
                         subs: []
                     },
                     {
                         text: 'Proteins',
-                        href: '/',
+                        href: '/ppi/glut4-distranslocation/proteins',
                         icon: null,
                         subs: []
                     },
                     {
                         text: 'Parameters',
-                        href: '/',
+                        href: '/ppi/glut4-distranslocation/parameters',
                         icon: null,
                         subs: []
                     },
                     {
                         text: 'Reactions',
-                        href: '/',
+                        href: '/ppi/glut4-distranslocation/reactions',
                         icon: null,
                         subs: []
                     },
@@ -79,25 +79,25 @@ const sidebarConfig = [
                 subs: [
                     {
                         text: 'Compartments',
-                        href: '/',
+                        href: '/ppi/synthesis-protein-ampk/compartments',
                         icon: null,
                         subs: []
                     },
                     {
                         text: 'Proteins',
-                        href: '/',
+                        href: '/ppi/synthesis-protein-ampk/proteins',
                         icon: null,
                         subs: []
                     },
                     {
                         text: 'Parameters',
-                        href: '/',
+                        href: '/ppi/synthesis-protein-ampk/parameters',
                         icon: null,
                         subs: []
                     },
                     {
                         text: 'Reactions',
-                        href: '/',
+                        href: '/ppi/synthesis-protein-ampk/reactions',
                         icon: null,
                         subs: []
                     },
@@ -110,25 +110,25 @@ const sidebarConfig = [
                 subs: [
                     {
                         text: 'Compartments',
-                        href: '/',
+                        href: '/ppi/synthesis-protein-mtor/compartments',
                         icon: null,
                         subs: []
                     },
                     {
                         text: 'Proteins',
-                        href: '/',
+                        href: '/ppi/synthesis-protein-mtor/proteins',
                         icon: null,
                         subs: []
                     },
                     {
                         text: 'Parameters',
-                        href: '/',
+                        href: '/ppi/synthesis-protein-mtor/parameters',
                         icon: null,
                         subs: []
                     },
                     {
                         text: 'Reactions',
-                        href: '/',
+                        href: '/ppi/synthesis-protein-mtor/reactions',
                         icon: null,
                         subs: []
                     },
