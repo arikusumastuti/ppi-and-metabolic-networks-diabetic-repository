@@ -18,7 +18,7 @@ export default function RootLayout({ children }) {
                 <div className="fixed xl:hidden w-screen h-0 overflow-visible">
                     <SidebarMobile />
                 </div>
-                <div className="hidden xl:block w-1/6 h-screen overflow-auto">
+                <div className="hidden xl:block w-1/6 h-fit">
                     <Sidebar />
                 </div>
                 <div className="w-full xl:w-5/6 h-screen overflow-auto bg-yellow-50">
