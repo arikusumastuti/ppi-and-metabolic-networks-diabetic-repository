@@ -2,7 +2,7 @@
 
 import { useState } from "react"
 import Link from "next/link";
-import sidebarConfig from "@/utils/data";
+import sidebarConfig from "@/lib/data";
 import SidebarItem from "./SidebarItem";
 import { FaBars } from "react-icons/fa6";
 
