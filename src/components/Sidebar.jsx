@@ -12,7 +12,7 @@ export default function Sidebar() {
         <div className="relative bg-custom">
             <div className="h-screen *:text-white overflow-auto scrollbar-hidden pb-4">
                 <Link href="/" className="flex p-4 mb-3 no-underline border-b-[1px]">
-                    <span className="text-lg font-semibold border-s-2 ps-2">Metabolic Networks Features</span>
+                    <span className="text-lg font-semibold border-s-2 ps-2">PPI & Metabolic Networks Repository</span>
                 </Link>
                 <div className="flex flex-col px-4 py-2 gap-4 *:text-[.9rem] *:mb-0 select-none bg-dark-blue">
                     {menu.map((item, index) => <SidebarItem key={index} {...item} />)}
