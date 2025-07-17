@@ -1,7 +1,8 @@
-import Cover from "@/components/Cover";
 import "./globals.css";
+import Cover from "@/components/Cover";
 import Sidebar from "@/components/Sidebar";
 import SidebarMobile from "@/components/SidebarMobile";
+import Footer from "@/components/Footer";
 
 export const metadata = {
     title: "PPI & Metabolic Networks Repository for Diabetic",
@@ -31,9 +32,7 @@ export default function RootLayout({ children }) {
                     <div className="h-full">
                         {children}
                     </div>
-                    <footer className="w-full h-16 flex items-center px-8 text-sm">
-                        <p>Copyright &copy; 2025 Ari Kusumastuti and Akhmad Roziqin</p>
-                    </footer>
+                    <Footer />
                 </div>
             </main>
         </body>
