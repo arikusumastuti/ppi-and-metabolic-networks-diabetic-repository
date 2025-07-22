@@ -5,7 +5,7 @@ export default function Overview() {
                 <h3 className="mt-3.5 text-3xl font-bold text-blue-500">Overview</h3>
                 <p className="xl:w-full mt-3.5 mx-auto font-medium">Model of Protein-Protein Interactions (PPI) and Metabolic Networks formatted in system of biological markup language.</p>
             </div>
-            <div className="md:w-3/4 space-y-4 text-justify bg-white p-8 rounded-2xl shadow-xl">
+            <div className="xl:w-3/4 space-y-4 text-justify bg-white p-8 rounded-2xl shadow-xl">
                 <section>
                     <h2 className="font-bold">Protein-Protein Interactions (PPI) Model</h2>
                     <p>Protein-protein Interactions (PPI) consist of modelling mathematics formatted in system biological markup language that involving:</p>
